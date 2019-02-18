@@ -17,6 +17,18 @@ Servidor http de prueba
 4. Componente para retornar código de estado 200 para todas las peticiones
 5. Componente para el registro de todas las peticiones en un archivo .log
 
+Los componentes se pueden ver en el siguiente diagrama:
+https://docs.google.com/drawings/d/1duJdyWozm7Uc-Eds8gTzMBQdwMIrnZf7GE2K3Y0VJYA/edit?usp=sharing
+
+* El flujo de trabajo del servidor Http es el siguiente:
+	1. El servicio se inicia para escuchar las peticiones
+	2. Cuando llega una petición, se realiza un registro de log con el contenido de la petición entrante
+	3. El contenido de la petición debe ser interpretado por el componente correspondiente
+	4. Cuando se tiene la petición de una forma estructurada, se debe revisar en un listado de acciones, si la petición cumple con las caracteristicas requeridas para ejecutar una o muchas de estas acciones, se deben ejecutar.
+	5. Al finalizar con la ejecucion de las acciones, se debe invocar el componente de retorno quien se encarga de crear el objeto que devuelve el servicio.
+
+* El servidor funciona como un controlador, que cordina la ejecución de todo el flujo soportandose en los componentes alternos.
+
 
 ## Herramientas de desarrollo
 * El lenguaje a utilizar en el proceso de construcción del servidor Http será C#. 
