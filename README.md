@@ -29,6 +29,8 @@ Los componentes se pueden ver [aquí](Componentes.png)
 
 * Para la ejecución de las diferentes acciones, se implementará un listado que permite agregar, borrar y ejecutar las acciones de acuerdo a las condiciones establecidas en cada una de ellas.
 
+* El interprete Http se encarga de traducir el mensaje que ingresa y entrega una solicitud estrucutrada para su procesamiento. También se encarga de traducir una respuesta estructurada a un formato Http.
+
 * El interprete Http, el creador de respuesta y el escritor de log son componentes externos al servidor que pueden sufrir grandes cambios en sus funcionalidades, por lo tanto, se implementan mediante interfaces para evitar el acoplamiento.
 
 * Las clases y sus funcionalidades se pueden ver en este [diagrama](ClassDiagram.png)
