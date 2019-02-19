@@ -16,7 +16,7 @@ Servidor http de prueba
 4. Componente para retornar código de estado 200 para todas las peticiones
 5. Componente para el registro de todas las peticiones en un archivo .log
 
-Los componentes se pueden ver [aquí](https://docs.google.com/drawings/d/1duJdyWozm7Uc-Eds8gTzMBQdwMIrnZf7GE2K3Y0VJYA/edit?usp=sharing)
+Los componentes se pueden ver [aquí](Componentes.png)
 
 * El flujo de trabajo del servidor Http es el siguiente:
 	1. El servicio se inicia para escuchar las peticiones
