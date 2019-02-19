@@ -31,6 +31,8 @@ Los componentes se pueden ver [aquí](Componentes.png)
 
 * El interprete Http se encarga de traducir el mensaje que ingresa y entrega una solicitud estrucutrada para su procesamiento. También se encarga de traducir una respuesta estructurada a un formato Http.
 
+* El creador de respuesta se implementa de manera independiente debido a que en un principio se debe retornar un código de estado 200, pero esta funcionalidad podria ser modificada en cualquier momento. Implementar la funcionalidad mediante una interface es una forma sencilla de mitigar el riesgo ante cualquier cambio en la respuesta.
+
 * El interprete Http, el creador de respuesta y el escritor de log son componentes externos al servidor que pueden sufrir grandes cambios en sus funcionalidades, por lo tanto, se implementan mediante interfaces para evitar el acoplamiento.
 
 * Las clases y sus funcionalidades se pueden ver en este [diagrama](ClassDiagram.png)
