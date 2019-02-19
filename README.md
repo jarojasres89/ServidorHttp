@@ -26,7 +26,7 @@ https://docs.google.com/drawings/d/1duJdyWozm7Uc-Eds8gTzMBQdwMIrnZf7GE2K3Y0VJYA/
 	4. Se debe revisar en un listado de acciones si la petición cumple con las caracteristicas requeridas para ejecutar una o muchas de estas acciones.
 	5. Al finalizar con la ejecucion de las acciones, se debe retornar el mensaje con el código de estado 200.
 
-* El servidor funciona como un controlador, que cordina la ejecución de todo el flujo soportandose en los componentes alternos.
+* El servidor funciona como un controlador, que coordina la ejecución de todo el flujo soportandose en los componentes alternos.
 
 
 ## Herramientas de desarrollo
