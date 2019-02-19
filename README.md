@@ -30,7 +30,8 @@ Los componentes se pueden ver [aquí](Componentes.png)
 * Las clases y sus funcionalidades se pueden ver en este [diagrama](ClassDiagram.png)
 
 ## Herramientas de desarrollo
-* El lenguaje a utilizar en el proceso de construcción del servidor Http será C#. 
-* El framework de .Net y en especial el lenguaje de programación C# es bien conocido por dos de los tres miembros del equipo y ellos servirán de soporte para mejorar el proceso de aprendizaje del ultimo integrante. 
+* El lenguaje a utilizar en el proceso de construcción del servidor Http será C# 7.0. 
+* Se trabajará con .Net Core 2.1 que es la ultima version estable.
+* La plataforma .Net y en especial el lenguaje de programación C# es bien conocido por dos de los tres miembros del equipo y ellos servirán de soporte para mejorar el proceso de aprendizaje del ultimo integrante. 
 * La herramienta seleccionada permite implementar cada una de las funcionalidades necesarias para la creación del servidor Http
 * Se cuenta con suficiente documentación para crear el servidor Http con tecnología .Net.
