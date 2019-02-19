@@ -66,7 +66,32 @@ Existen dos tipos de mensajes HTTP: Peticiones y respuestas, cada uno sigue su p
 
 #### Peticiones
 
+<img src="HTTP_Request.png" width="50%">
 
+Una petición de HTTP, está formado  por los siguientes campos:
+
+<ul>
+<li>Un método HTTP,  normalmente pueden ser un verbo, como: GET, POST o un nombre como: OPTIONS o HEAD, que defina la operación que el cliente quiera realizar. El objetivo de un cliente, suele ser una petición de recursos, usando GET, o presentar un valor de un formulario HTML, usando POST, aunque en otras ocasiones puede hacer otros tipos de peticiones. </li>	
+<li>La dirección del recurso pedido, la URL del recurso, sin los elementos obvios por el contexto, como pueden ser: sin el  protocolo (http://),  el dominio, o el puerto TCP. </li>
+<li> La versión del protocolo HTTP.</li>
+<li> Cabeceras HTTP opcionales, que pueden aportar información adicional a los servidores.
+O un cuerpo de mensaje, en algún método, como puede ser POST, en el cual envía la información para el servidor. </li>
+</ul>
+	
+### Respuestas
+
+<img src="HTTP_Response.png" width="50%">
+
+Las respuestas están formadas por los siguentes campos:
+
+<ul>
+<li>La versión del protocolo HTTP que están usando.</li>
+<li>Un código de estado, indicando si la petición ha sido exitosa, o no, y debido a que. </li>
+<li>Un mensaje de estado, una breve descripción del código de estado. </li>
+<li>Cabeceras HTTP, como las de las peticiones. </li>
+<li>Opcionalmente, el recurso que se ha pedido. </li>
+
+</ul>
 
 ## Objetivo
 * Definición inicial de una arquitectura detallada para la creación de un servidor Http
