@@ -1,5 +1,72 @@
-# ServidorHttp
-Servidor http de prueba
+# Servidor HTTP
+
+## ¿Por dónde empezar?
+
+### OSI
+
+El modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo conceptual que caracteriza y estandariza las funciones de comunicación de un sistema de telecomunicaciones sin tener en cuenta la estructura interna y la tecnologías subyancentes.
+Su objetivo es la interoperabilidad de diversos sistemas de comunicación con protocolos estándar. El modelo divide un sistema de comunicación en capas de abstracción. La versión original del modelo está compuesto por 7 capas.
+
+Para implementar HTTP, solo nos interesa la cuarta capa, la capa de transporte.
+
+### Capa de transporte
+
+Es la principal responsable de garantizar que los datos se transfieran de un punto a otro de forma confiable, es decir, que los datos se envíen y se reciban en la secuencia correcta, proporciona control de flujo y manejo de errores. 
+Ejemplos comunes de protocolos son el TCP, UDP y SPX.
+
+Usaremos el protocolo de control de transmisión (TCP) para implementar el servidor HTTP.
+
+### HTTP
+
+De **RFC2616**: El protocolo de transferencia de hipertexto (HTTP), es un protocolo genérico, sin estado, que puede usarse para muchas tareas más allá de su uso para el hipertexto, como los servidores de nombres y sistemas de gestión de objetos distribuidos, a través de la extensión de sus métodos de petición, códigos de error y encabezados. Una caracteristica de HTTP es la tipificación y negociación de representación de datos, permitiendo la construcción de sistemas independiente de los datos que se transfieren.
+
+La comunicación HTTP por lo general se lleva acabo a través de conexiones TCP/IP. El puerto predeterminado es TCP 80, pero se pueden usar otros puertos.
+
+La primera versión de HTTP (HTTP/0.9) era un protocolo simplete para la transferencia de datos en bruto (raw data) a través de internet. El HTTP/1.0 permitía que los mensajes tuvieran un formato de tipo MIME, los cuales contienen metadata sobre los datos transferidos, además de modificadores sobre la petición / respuesta. Sin embargo, HTTP/1.0 no toma suficientemente en cuenta los efectos de la jerarquía de proxies, almacenamiento de caché, la necesidad de conexiones persistentes, entre otros.
+
+HTTP/1.1 incluye requisitos más estrictos que HTTP/1.0 para asegurar la implementación confiable de sus características.
+
+### Flujo HTTP
+
+Cuando el cliente quiere comunicarse con el servidor, tanto si es directamente con él, o a través de un proxy intermedio, realiza los siguientes pasos: 
+
+<ol>
+	<li> Abre una conexión TCP: La conexión TCP se usará para hacer una petición, o varias, y recibir la respuesta. El cliente pude abrir una conexión nueva, reusar una existente, o abrir varias a la vez hacia el servidor.</li>	
+	
+<li>Hacer una petición HTTP: Los mensajes HTTP (previos a HTTP/2) son legibles en texto plano. A partir de la 		versión del protocolo HTTP/2, los mensajes se encapsulan en franjas, haciendo que no sean directamente interpretables, aunque el principio de operación es el mismo.
+		<pre>
+		<code>
+		GET / HTTP/1.1
+		Host: prueba.eafit.edu.co
+		Accept-Language: en
+		</code>
+		</pre>
+	</li>
+	
+<li>Leer la respuesta enviada por el servidor:
+		<pre>
+		<code>
+		HTTP/1.1 200 OK
+		Date: Sat, 09 Oct 2010 14:28:02 GMT
+		Server: Apache
+		Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+		ETag: "51142bc1-7449-479b075b2891b"
+		Accept-Ranges: bytes
+		Content-Length: 29769
+		Content-Type: text/html
+		</code>
+		</pre>
+</li>
+<li> Cierre o reuso de la conexión para futuras peticiones </li>
+</ol>
+
+### Mensajes HTTP
+
+Existen dos tipos de mensajes HTTP: Peticiones y respuestas, cada uno sigue su propio formato 
+
+#### Peticiones
+
+
 
 ## Objetivo
 * Definición inicial de una arquitectura detallada para la creación de un servidor Http
