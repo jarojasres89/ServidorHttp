@@ -27,7 +27,7 @@ Los componentes se pueden ver [aquí](https://docs.google.com/drawings/d/1duJdyW
 
 * El servidor funciona como un controlador, que coordina la ejecución de todo el flujo soportandose en los componentes alternos.
 
-* Las clases y sus funcionalidades se pueden ver en este [diagrama](classdiagram.png)
+* Las clases y sus funcionalidades se pueden ver en este [diagrama](ClassDiagram.png)
 
 ## Herramientas de desarrollo
 * El lenguaje a utilizar en el proceso de construcción del servidor Http será C#. 
