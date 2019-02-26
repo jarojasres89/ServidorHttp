@@ -7,15 +7,6 @@
 El modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo conceptual que caracteriza y estandariza las funciones de comunicación de un sistema de telecomunicaciones sin tener en cuenta la estructura interna y la tecnologías subyancentes.
 Su objetivo es la interoperabilidad de diversos sistemas de comunicación con protocolos estándar. El modelo divide un sistema de comunicación en capas de abstracción. La versión original del modelo está compuesto por 7 capas.
 
-Para implementar HTTP, solo nos interesa la cuarta capa, la capa de transporte.
-
-### Capa de transporte
-
-Es la principal responsable de garantizar que los datos se transfieran de un punto a otro de forma confiable, es decir, que los datos se envíen y se reciban en la secuencia correcta, proporciona control de flujo y manejo de errores. 
-Ejemplos comunes de protocolos son el TCP, UDP y SPX.
-
-Usaremos el protocolo de control de transmisión (TCP) para implementar el servidor HTTP.
-
 ### HTTP
 
 De **RFC2616**: El protocolo de transferencia de hipertexto (HTTP), es un protocolo genérico, sin estado, que puede usarse para muchas tareas más allá de su uso para el hipertexto, como los servidores de nombres y sistemas de gestión de objetos distribuidos, a través de la extensión de sus métodos de petición, códigos de error y encabezados. Una caracteristica de HTTP es la tipificación y negociación de representación de datos, permitiendo la construcción de sistemas independiente de los datos que se transfieren.
