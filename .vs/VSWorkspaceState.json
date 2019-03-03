@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ServidorHttp",
+    "\\ServidorHttp\\Servicios\\Acciones",
+    "\\ServidorHttp\\Servicios\\CreadorRespuesta",
+    "\\ServidorHttp\\Servicios\\EscritorLog",
+    "\\ServidorHttp\\Servicios\\Interprete"
+  ],
+  "SelectedNode": "\\ServidorHttp\\Enums",
+  "PreviewInSolutionExplorer": false
+}

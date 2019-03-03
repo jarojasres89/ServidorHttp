@@ -1,0 +1,18 @@
+﻿
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+cache-control: no-cache
+Postman-Token: 4089a219-bd5b-4a34-b8bc-bb83f022eee2
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+Esperando por conexión...
