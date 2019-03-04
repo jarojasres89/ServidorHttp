@@ -16,3 +16,567 @@ Connection: keep-alive
 
 
 Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /favicon.ico HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+
+Iniciar servidor con IP: 127.0.0.1 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /favicon.ico HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /favicon.ico HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /favicon.ico HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+
+Iniciar servidor con IP: 127.0.0.1 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+
+Iniciar servidor con IP: 127.0.0.1 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+POST /prueba HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 86e9aec1-6473-4a53-879b-7f680aaad1fb
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+POST /prueba HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: f560e3e7-b327-4dae-9de0-c09e5fb72f75
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+POST /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 7d5b2a5a-5c75-481f-8dcc-5b1fb437b13b
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 23
+Connection: keep-alive
+
+alguna=cosa&bueno=trato
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+POST /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 25123281-c2fd-44f6-9f67-3917e0a6f3bf
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+POST /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 7dfffd41-c62a-40cf-9c0c-362d291fd01b
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+POST /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: a940ccf3-d43e-44e7-8fae-d0c951d8f33f
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: fdc31b44-db48-4332-9e57-a983fc4788a4
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 29fcc596-431b-4ad2-aeb6-8c4512a57e43
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 1ea97f1b-1556-4d1a-b6c7-e8d2fefcb197
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+Esperando por conexión...
+Cliente conectado
+Request: 
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: ba669912-6e2e-4df1-93b1-2edefb775550
+User-Agent: PostmanRuntime/7.6.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
