@@ -71,17 +71,11 @@ namespace ServidorHttp
 
         private void RecibirPeticion(TcpClient cliente)
         {
-            var reader = new StreamReader(cliente.GetStream());
-            var msg = string.Empty;
+            Solicitud = Interprete.InterpretarSolicitud(cliente);
 
-            while (reader.Peek() != -1)
-            {
-                msg += reader.ReadLine() + "\n";
-            }
-            
-            Log("Request: \n" + msg);
+            Log("Request: " + Solicitud.Semilla);
 
-            Solicitud = Interprete.InterpretarSolicitud(msg);
+            Log($"Solicitud tipada: Verbo:{Solicitud.Verbo} - Url:{Solicitud.URL} - Tipo Contenido:{Solicitud.TipoContenido} - Encabezados:{Interprete.ObtenerEncabezados(Solicitud.Encabezados)} - Contenido:{Solicitud.Contenido}");
 
             var respuesta = ListaAcciones.EjecutarAcciones(Solicitud) ?? CreadorRespuesta.CrearRespuesta(Solicitud);
             

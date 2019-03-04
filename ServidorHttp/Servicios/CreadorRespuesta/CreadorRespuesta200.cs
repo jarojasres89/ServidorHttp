@@ -16,7 +16,7 @@ namespace ServidorHttp.Servicios.CreadorRespuesta
             var message = "--------Petición------ \r\n\r\n";
 
             message += solicitud.Semilla;
-            message += "------------------Respuesta------------------\r\n\r\n OK!";
+            message += "------------------Respuesta------------------\r\n\r\n OK! :D";
             
             var bytes = Encoding.ASCII.GetBytes(message);
 

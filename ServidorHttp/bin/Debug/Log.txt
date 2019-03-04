@@ -580,3 +580,55 @@ Connection: keep-alive
 	"prueba": 1,
 	"Test": 2
 }
+
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: 
+GET / HTTP/1.1
+cache-control: no-cache
+Postman-Token: 1df9c5b3-b7e0-4b9d-a371-4c0fb3d7eb33
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: GET / HTTP/1.1
+cache-control: no-cache
+Postman-Token: 4059c08d-debe-44a8-8353-508433ffdb5d
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: GET / HTTP/1.1
+cache-control: no-cache
+Postman-Token: d7f12085-1d6d-42b8-8cca-447bf904a3ed
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  d7f12085-1d6d-42b8-8cca-447bf904a3ed
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+Esperando por conexión...

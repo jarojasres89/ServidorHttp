@@ -5,8 +5,10 @@ namespace ServidorHttp.Servicios.Interprete
 {
     public interface IInterpreteHttp
     {
-        Solicitud InterpretarSolicitud(object valor);
+        Solicitud InterpretarSolicitud(TcpClient cliente);
         
         void EscribirRespuesta(Respuesta respuesta, TcpClient cliente);
+
+        string ObtenerEncabezados(Encabezado[] encabezados);
     }
 }

@@ -21,21 +21,5 @@ namespace ServidorHttp.Modelo
         public Encabezado[] Encabezados { get; }
         public string VersionServidor { get; }
         public string NombreServidor { get; }
-        public string Mensaje {
-            get
-            {
-                return $"{VersionServidor} {CodigoEstado}\r\nServer: {NombreServidor}\r\nContent-Type: {TipoContenido}\r\nAccept-Ranges: bytes\r\nContent-Length: {Contenido.Length}{ObtenerEncabezados}\r\n";
-            }
-        }
-
-        private string ObtenerEncabezados => 
-            string.Join(
-                        string.Empty, textoEncabezados.ToArray()
-                        );
-
-        private IEnumerable<string> textoEncabezados =>
-            Encabezados?.Select(
-                        r => $"\r\n{r.Nombre}: {r.Valor}"
-                    ) ?? new List<string>();
     }
 }
