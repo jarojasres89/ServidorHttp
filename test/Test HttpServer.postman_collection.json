@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "9cdc75cf-9da0-42d1-860d-a1d8364d4e04",
+		"name": "Test HttpServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3a1862ef-d784-4ddd-b5aa-19d618bf357c",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8010/prueba?test=1&test2=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"prueba"
+					],
+					"query": [
+						{
+							"key": "test",
+							"value": "1"
+						},
+						{
+							"key": "test2",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4c2d2f9a-e79f-4337-a85a-3ddaa1e1f7c7",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"param2\": 1,\n\t\"param3\": 5\n}"
+				},
+				"url": {
+					"raw": "localhost:8010/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "061020dd-bf2e-424f-8819-a6ddf3224de9",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"prueba\": 1,\n\t\"Test\": 2\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8010/prueba",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"prueba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2e7511db-af91-4590-af06-fc85eccb6489",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8010/contract/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8010",
+					"path": [
+						"contract",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
