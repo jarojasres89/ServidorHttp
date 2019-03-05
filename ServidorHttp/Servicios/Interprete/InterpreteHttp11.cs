@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Sockets;
+using System.Text;
 
 namespace ServidorHttp.Servicios.Interprete
 {
@@ -18,7 +19,7 @@ namespace ServidorHttp.Servicios.Interprete
             if (textoPeticion == string.Empty)
                 return null;
 
-            var lineasPeticion = textoPeticion.Split(new[] { '\r', '\n' });
+            var lineasPeticion = textoPeticion.Split(new[] { '\r'}).Select( x=> x.Replace("\n", "")).ToArray();            
             var primeraLinea = lineasPeticion[0].Split(new[] { ' ' });
             VerbosHttp verboHttp;
             Enum.TryParse(primeraLinea[0], out verboHttp);
@@ -32,19 +33,19 @@ namespace ServidorHttp.Servicios.Interprete
             var cuerpo = string.Join("", lineasPeticion.Skip(indiceInicioCuerpo).Select(x => x.Replace("\t", string.Empty)));
 
             return new Solicitud(textoPeticion, verboHttp, url.ToString(), cuerpo, tipoContenido, encabezado);
-
         }
 
         private string ObtenerMensajeSolicitud(TcpClient cliente)
         {
-            var reader = new StreamReader(cliente.GetStream());
-            var textoPeticion = string.Empty;
+            var networkStream = cliente.GetStream();
+            var buffer = new byte[cliente.ReceiveBufferSize];
 
-            while (reader.Peek() != -1)
-            {
-                textoPeticion += reader.ReadLine() + "\n";
-            }
+            var bytesRead = networkStream.Read(buffer, 0, cliente.ReceiveBufferSize);
+
+            string textoPeticion = Encoding.ASCII.GetString(buffer, 0, bytesRead);
+
             return textoPeticion;
+
         }
 
 

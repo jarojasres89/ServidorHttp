@@ -12,3 +12,10 @@ D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp\obj\Debug
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.csproj.CoreCompileInputs.cache
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.exe
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.pdb
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe.config
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.pdb
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.csprojAssemblyReference.cache
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.csproj.CoreCompileInputs.cache
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.exe
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.pdb
