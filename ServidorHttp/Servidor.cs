@@ -3,8 +3,8 @@ using ServidorHttp.Servicios.Acciones;
 using ServidorHttp.Servicios.CreadorRespuesta;
 using ServidorHttp.Servicios.EscritorLog;
 using ServidorHttp.Servicios.Interprete;
-using System;
 using System.IO;
+using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
@@ -26,6 +26,7 @@ namespace ServidorHttp
 
         public Enums.EstadosServidor Estado { get; private set; } = Enums.EstadosServidor.Detenido;
         public Solicitud Solicitud { get; set; }
+        public Respuesta Respuesta { get; set; }
         public IEscritorLog EscritorLog { get; set; }
 
         public ListaAcciones ListaAcciones { get; set; }
@@ -73,13 +74,15 @@ namespace ServidorHttp
         {
             Solicitud = Interprete.InterpretarSolicitud(cliente);
 
-            Log("Request: " + Solicitud.Semilla);
+            Log("\r\nRequest: " + Solicitud.Semilla);
 
-            Log($"Solicitud tipada: Verbo:{Solicitud.Verbo} - Url:{Solicitud.URL} - Tipo Contenido:{Solicitud.TipoContenido} - Encabezados:{Interprete.ObtenerEncabezados(Solicitud.Encabezados)} - Contenido:{Solicitud.Contenido}");
+            Log($"\r\nSolicitud tipada: Verbo:{Solicitud.Verbo} - Url:{Solicitud.URL} - Tipo Contenido:{Solicitud.TipoContenido} - Encabezados:{Interprete.ObtenerEncabezados(Solicitud.Encabezados)} - Contenido:{Solicitud.Contenido}");
 
-            var respuesta = ListaAcciones.EjecutarAcciones(Solicitud) ?? CreadorRespuesta.CrearRespuesta(Solicitud);
-            
-            Interprete.EscribirRespuesta(respuesta, cliente);
+            Respuesta = ListaAcciones.EjecutarAcciones(Solicitud) ?? CreadorRespuesta.CrearRespuesta(Solicitud);
+
+            Log("\r\nRespuesta: " + Interprete.MensajeRespuesta(Respuesta));
+
+            Interprete.EscribirRespuesta(Respuesta, cliente);
         }
 
         private void Log(string mensaje)

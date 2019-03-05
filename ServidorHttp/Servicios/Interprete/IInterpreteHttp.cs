@@ -10,5 +10,7 @@ namespace ServidorHttp.Servicios.Interprete
         void EscribirRespuesta(Respuesta respuesta, TcpClient cliente);
 
         string ObtenerEncabezados(Encabezado[] encabezados);
+
+        string MensajeRespuesta(Respuesta respuesta);
     }
 }

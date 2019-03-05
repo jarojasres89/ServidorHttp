@@ -632,3 +632,92 @@ Host:  localhost:8010
 accept-encoding:  gzip, deflate
 Connection:  keep-alive - Contenido:
 Esperando por conexión...
+Cliente conectado
+Request: GET / HTTP/1.1
+cache-control: no-cache
+Postman-Token: f360ecd8-06a5-4a67-987c-6474c9cf3b24
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  f360ecd8-06a5-4a67-987c-6474c9cf3b24
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Request: GET / HTTP/1.1
+cache-control: no-cache
+Postman-Token: e9de8243-1b82-451c-afb5-57020793c8c8
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  e9de8243-1b82-451c-afb5-57020793c8c8
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 295
+Expires: -1
+Date: Tuesday, March 5, 2019
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET / HTTP/1.1
+cache-control: no-cache
+Postman-Token: 0717f785-4b6b-44a8-8cb1-acd78810d05a
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  0717f785-4b6b-44a8-8cb1-acd78810d05a
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 295
+Expires: -1
+Date: Tuesday, March 5, 2019
+
+Esperando por conexión...
+Cliente conectado
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado

@@ -60,7 +60,7 @@ namespace ServidorHttp.Servicios.Interprete
             stream.Close();
         }
 
-        private string MensajeRespuesta(Respuesta respuesta)
+        public string MensajeRespuesta(Respuesta respuesta)
         {
             var textoEncabezados = ObtenerEncabezados(respuesta.Encabezados);
             return $"{respuesta.VersionServidor} {respuesta.CodigoEstado}\r\nServer: {respuesta.NombreServidor}\r\nContent-Type: {respuesta.TipoContenido}\r\nAccept-Ranges: bytes\r\nContent-Length: {respuesta.Contenido.Length}{textoEncabezados}\r\n";
