@@ -127,11 +127,11 @@ Los componentes se pueden ver [aquí](Componentes.png)
 * Se cuenta con suficiente documentación para crear el servidor Http con tecnología .Net.
 
 ## Instrucciones de uso
-* Descargar el proyecto y abrir la solución en Visual Studio.
+* Descargar el proyecto y abrir la solución en Visual Studio 2017.
 * En el archivo Program.cs, se inicia el servidor en el puerto 8010. Puede cambiar esta configuración de ser necesario.
 * Iniciar la ejecución del programa con F5 ó en el menú Debug -> Start.
 * Al iniciar el programa se muestra una ventana de consola donde informa que el servidor ha sido iniciado, el puerto y la ruta del archivo donde se está registrando el log.
-* Enviar una petición Http mediante un navegador o una aplicación como Postman a la ruta http://localhost:8010.
+* Enviar una petición Http mediante un navegador o una aplicación como Postman a la ruta http://localhost:8010. Recuerde modificar el puerto 8010 en caso de ser necesario
 * Revisar el archivo de Log que se encuentra en la ruta especificada por la ventana de consola.
 
 ## Instrucciones para la ejecución de las pruebas
