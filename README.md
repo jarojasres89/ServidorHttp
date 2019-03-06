@@ -157,12 +157,21 @@ Los componentes se pueden ver [aquí](Componentes.png)
 ## Instrucciones de uso
 * Descargar el proyecto y abrir la solución en Visual Studio 2017.
 * En el archivo Program.cs, se inicia el servidor en el puerto 8010. Puede cambiar esta configuración de ser necesario.
+<img src="Program.cs.png" width="90%">
+
 * Iniciar la ejecución del programa con F5 ó en el menú Debug -> Start.
 * Al iniciar el programa se muestra una ventana de consola donde informa que el servidor ha sido iniciado, el puerto y la ruta del archivo donde se está registrando el log.
+<img src="Consola.png" width="90%">
+
 * Enviar una petición Http mediante un navegador o una aplicación como Postman a la ruta http://localhost:8010. Recuerde modificar el puerto 8010 en caso de ser necesario
 * Revisar el archivo de Log que se encuentra en la ruta especificada por la ventana de consola.
+<img src="Consola2.png" width="90%">
 
 <a name="test"></a>
 ## Instrucciones para la ejecución de las pruebas
+* En Visual Studio 2017, abrir la ventana "Test Explorer" por el menú Test -> Windows -> Test Explorer
+* Dar clic en la opción "Ejecutar todos"
+* Las pruebas de integración envian diferentes peticiones al Servidor http, el cual responde a todas con un código de estado 200.
+<img src="IntegrationTest.cs.png" width="90%">
 
 
