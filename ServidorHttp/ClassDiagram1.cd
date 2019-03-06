@@ -1,73 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ServidorHttp.Encabezado">
-    <Position X="3.75" Y="3.25" Width="1.25" />
+  <Class Name="ServidorHttp.Servidor">
+    <Position X="3.75" Y="5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Encabezado.cs</FileName>
+      <HashCode>BBhAAAAAAAACAAACAAAIAAAAAAgAAAAAEAIAAAAAAAo=</HashCode>
+      <FileName>Servidor.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Estado" />
+      <Property Name="ListaAcciones" />
+      <Property Name="Interprete" />
+      <Property Name="EscritorLog" />
+      <Property Name="CreadorRespuesta" />
+    </ShowAsAssociation>
   </Class>
-  <Class Name="ServidorHttp.InterpreteHttp11">
-    <Position X="11.25" Y="4.75" Width="1.75" />
+  <Class Name="ServidorHttp.Modelo.Respuesta">
+    <Position X="13.75" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>InterpreteHttp11.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="ServidorHttp.ListaAcciones">
-    <Position X="3" Y="9" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AABQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
-      <FileName>ListaAcciones.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="Acciones" />
-    </ShowAsCollectionAssociation>
-  </Class>
-  <Class Name="ServidorHttp.Respuesta">
-    <Position X="0.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAACAgCAAAAAA=</HashCode>
-      <FileName>Respuesta.cs</FileName>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAACAgCAAAAAI=</HashCode>
+      <FileName>Modelo\Respuesta.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Property Name="Encabezados" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="ServidorHttp.Servidor">
-    <Position X="4.75" Y="6.75" Width="1.75" />
-    <AssociationLine Name="EscritorLog" Type="ServidorHttp.IEscritorLog" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="6.25" Y="6.75" />
-        <Point X="6.25" Y="6.052" />
-        <Point X="8" Y="6.052" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="Interprete" Type="ServidorHttp.IInterpreteHttp" FixedFromPoint="true">
-      <Path>
-        <Point X="6.5" Y="7.438" />
-        <Point X="8" Y="7.438" />
-      </Path>
-    </AssociationLine>
+  <Class Name="ServidorHttp.Modelo.Encabezado">
+    <Position X="11" Y="9.5" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>BBhAAAAAAAAAAAACAAAAAAAAAAAAAAAAEAIAAAAAAAg=</HashCode>
-      <FileName>Servidor.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Encabezado.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Solicitud" />
-      <Property Name="Estado" />
-      <Property Name="ListaAcciones" />
-      <Property Name="EscritorLog" />
-      <Property Name="CreadorRespuesta" />
-      <Property Name="Interprete" />
-    </ShowAsAssociation>
   </Class>
-  <Class Name="ServidorHttp.Solicitud">
-    <Position X="6.75" Y="3.25" Width="1.75" />
+  <Class Name="ServidorHttp.Modelo.Solicitud">
+    <Position X="7.75" Y="9.75" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAACAAAAAAEAAgCAAAAAA=</HashCode>
-      <FileName>Solicitud.cs</FileName>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAABAACAAAAAAEAAgCAAAAAA=</HashCode>
+      <FileName>Modelo\Solicitud.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Verbo" />
@@ -76,62 +44,77 @@
       <Property Name="Encabezados" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="ServidorHttp.CreadorRespuesta200">
-    <Position X="13.25" Y="3.25" Width="2" />
+  <Class Name="ServidorHttp.Servicios.EscritorLog.EscritorLogFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
-      <FileName>CreadorRespuesta200.cs</FileName>
+      <HashCode>AIAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Servicios\EscritorLog\EscritorLogFile.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="ServidorHttp.EscritorLogFile">
-    <Position X="11.25" Y="3.25" Width="1.5" />
+  <Class Name="ServidorHttp.Servicios.CreadorRespuesta.CreadorRespuesta200" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAEg=</HashCode>
+      <FileName>Servicios\CreadorRespuesta\CreadorRespuesta200.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ServidorHttp.Servicios.Interprete.InterpreteHttp11" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAACAAISAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Servicios\Interprete\InterpreteHttp11.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ServidorHttp.Servicios.Acciones.ListaAcciones">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Servicios\Acciones\ListaAcciones.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Acciones" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="ServidorHttp.Servicios.CreadorRespuesta.ICreadorRespuesta">
+    <Position X="3.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Servicios\CreadorRespuesta\ICreadorRespuesta.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ServidorHttp.Servicios.EscritorLog.IEscritorLog">
+    <Position X="3.75" Y="9" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>EscritorLogFile.cs</FileName>
+      <FileName>Servicios\EscritorLog\IEscritorLog.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Interface Name="ServidorHttp.IAccion">
-    <Position X="0.5" Y="9" Width="1.5" />
+  </Interface>
+  <Interface Name="ServidorHttp.Servicios.Interprete.IInterpreteHttp">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAACAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Servicios\Interprete\IInterpreteHttp.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ServidorHttp.Servicios.Acciones.IAccion">
+    <Position X="9.75" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IAccion.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="ServidorHttp.IEscritorLog">
-    <Position X="8" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IEscritorLog.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="ServidorHttp.ICreadorRespuesta">
-    <Position X="1.75" Y="5.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
-      <FileName>ICreadorRespuesta.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Respuesta" />
-    </ShowAsAssociation>
-  </Interface>
-  <Interface Name="ServidorHttp.IInterpreteHttp">
-    <Position X="8" Y="7" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAA=</HashCode>
-      <FileName>IInterpreteHttp.cs</FileName>
+      <FileName>Servicios\Acciones\IAccion.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="ServidorHttp.Enums.VerbosHttp">
-    <Position X="9.25" Y="3.25" Width="1.5" />
+    <Position X="4.75" Y="11.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAEAQAAAAAAAAAABAAgAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Enums\VerbosHttp.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="ServidorHttp.Enums.EstadosServidor">
-    <Position X="7.25" Y="9" Width="1.5" />
+    <Position X="0.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
       <FileName>Enums\EstadosServidor.cs</FileName>
