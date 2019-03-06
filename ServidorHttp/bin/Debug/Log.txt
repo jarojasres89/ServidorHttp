@@ -16503,3 +16503,161 @@ cookie:  ASP.NET_SessionId=rek5bndjbu134edcwrandgfr
 accept-encoding:  gzip, deflate
 Connection:  keep-alive - Contenido:
 Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET / HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 792b621d-007f-40fa-9196-8f77bcb631ca
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 70
+Connection: keep-alive
+
+{
+	"Nombre": "Marcos y patrones",
+	"Ubicaci??n": "Universidad EAFIT"
+}
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: application/json - Encabezados:
+Content-Type:  application/json
+cache-control:  no-cache
+Postman-Token:  792b621d-007f-40fa-9196-8f77bcb631ca
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  70
+Connection:  keep-alive - Contenido:{"Nombre": "Marcos y patrones","Ubicaci??n": "Universidad EAFIT"}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 426
+Expires: -1
+Date: Tuesday, March 5, 2019
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET / HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: 2ad3a201-d8ac-46a1-9c02-e4723395face
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 70
+Connection: keep-alive
+
+{
+	"Nombre": "Marcos y patrones",
+	"Ubicaci??n": "Universidad EAFIT"
+}
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: application/json - Encabezados:
+Content-Type:  application/json
+cache-control:  no-cache
+Postman-Token:  2ad3a201-d8ac-46a1-9c02-e4723395face
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  70
+Connection:  keep-alive - Contenido:{"Nombre": "Marcos y patrones","Ubicaci??n": "Universidad EAFIT"}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 426
+Expires: -1
+Date: Tuesday, March 5, 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET / HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: defa42f7-2d4c-4ff6-a52f-454771e8cd57
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 70
+Connection: keep-alive
+
+{
+	"Nombre": "Marcos y patrones",
+	"Ubicaci??n": "Universidad EAFIT"
+}
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: application/json - Encabezados:
+Content-Type:  application/json
+cache-control:  no-cache
+Postman-Token:  defa42f7-2d4c-4ff6-a52f-454771e8cd57
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  70
+Connection:  keep-alive - Contenido:{"Nombre": "Marcos y patrones","Ubicaci??n": "Universidad EAFIT"}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 426
+Expires: -1
+Date: Tuesday, March 5, 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET / HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: cf5edf9f-7878-4fc1-8757-c37db52bd57f
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 70
+Connection: keep-alive
+
+{
+	"Nombre": "Marcos y patrones",
+	"Ubicaci??n": "Universidad EAFIT"
+}
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: application/json - Encabezados:
+Content-Type:  application/json
+cache-control:  no-cache
+Postman-Token:  cf5edf9f-7878-4fc1-8757-c37db52bd57f
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  70
+Connection:  keep-alive - Contenido:{"Nombre": "Marcos y patrones","Ubicaci??n": "Universidad EAFIT"}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 426
+Expires: -1
+Date: Tuesday, March 5, 2019
+
+Esperando por conexión...

@@ -1,10 +1,3 @@
-C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe.config
-C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe
-C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.pdb
-C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.csprojAssemblyReference.cache
-C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.csproj.CoreCompileInputs.cache
-C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.exe
-C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.pdb
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe.config
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.pdb
@@ -19,3 +12,9 @@ D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.csproj.CoreCompileInputs.cache
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.exe
 D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.pdb
+C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe.config
+C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.exe
+C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\bin\Debug\ServidorHttp.pdb
+C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.csproj.CoreCompileInputs.cache
+C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.exe
+C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp\obj\Debug\ServidorHttp.pdb
