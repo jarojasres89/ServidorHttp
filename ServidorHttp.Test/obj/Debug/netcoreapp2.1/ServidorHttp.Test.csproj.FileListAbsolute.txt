@@ -1,0 +1,13 @@
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\ServidorHttp.Test.deps.json
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\ServidorHttp.Test.runtimeconfig.json
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\ServidorHttp.Test.runtimeconfig.dev.json
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\ServidorHttp.Test.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\bin\Debug\netcoreapp2.1\ServidorHttp.Test.pdb
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\obj\Debug\netcoreapp2.1\ServidorHttp.Test.csproj.CoreCompileInputs.cache
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\obj\Debug\netcoreapp2.1\ServidorHttp.Test.AssemblyInfoInputs.cache
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\obj\Debug\netcoreapp2.1\ServidorHttp.Test.AssemblyInfo.cs
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\obj\Debug\netcoreapp2.1\ServidorHttp.Test.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.Test\obj\Debug\netcoreapp2.1\ServidorHttp.Test.pdb
