@@ -55,11 +55,14 @@ namespace ServidorHttp
 
                 var cliente = _listener.AcceptTcpClient();
 
-                Log("Cliente conectado");
+                if (cliente != null)
+                {
+                    Log("Cliente conectado");
 
-                RecibirPeticion(cliente);
+                    RecibirPeticion(cliente);
 
-                cliente.Close();
+                    cliente.Close();
+                }
             }
             Estado = Enums.EstadosServidor.Detenido;
             _listener.Stop();

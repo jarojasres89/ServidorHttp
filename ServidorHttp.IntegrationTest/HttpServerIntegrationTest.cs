@@ -8,16 +8,14 @@ namespace ServidorHttp.IntegrationTest
 {
     public class HttpServerIntegrationTest
     {
-        private readonly int Puerto = 8010;
-        Servidor servidor = new Servidor();
-
-        private void StartServer()
+        private Servidor StartServer(int puerto)
         {
-            if (servidor.Estado == Enums.EstadosServidor.Detenido)
-                servidor.Iniciar(Puerto);
+            Servidor servidor = new Servidor();
+            servidor.Iniciar(puerto);
+            return servidor;
         }
 
-        private void StopServer()
+        private void StopServer(Servidor servidor)
         {
             servidor.Detener();
         }
@@ -27,9 +25,9 @@ namespace ServidorHttp.IntegrationTest
             return new HttpClient();
         }
 
-        private HttpRequestMessage CreateRequest()
+        private HttpRequestMessage CreateRequest(int puerto)
         {
-            string url = "http://localhost:" + Puerto;
+            string url = "http://localhost:" + puerto;
             var request = new HttpRequestMessage
             {
                 RequestUri = new Uri(url),
@@ -44,26 +42,28 @@ namespace ServidorHttp.IntegrationTest
         [Fact]
         public async void Get()
         {
-            StartServer();
-
+            int puerto = 8030;
+            var servidor = StartServer(puerto);
+            
             var client = CreateClient();
-            var request = CreateRequest();
+            var request = CreateRequest(puerto);
             
             using (var response = await client.GetAsync(request.RequestUri))
             {
                 Assert.Equal(HttpStatusCode.OK, response.StatusCode);
                 Assert.Equal("Marcos&PatronesTeam 1.1", response.Headers.Server.ToString());
             }
-            StopServer();
+            StopServer(servidor);
         }
 
         [Fact]
         public async void Post()
         {
-            StartServer();
+            int puerto = 8040;
+            var servidor = StartServer(puerto);
 
             var client = CreateClient();
-            var request = CreateRequest();
+            var request = CreateRequest(puerto);
 
             var contentJson = "{\"Nombre\": \"Marcos y patrones\",\"Ubicación\": \"Universidad EAFIT\"}";
 
@@ -74,16 +74,17 @@ namespace ServidorHttp.IntegrationTest
                 Assert.Equal(HttpStatusCode.OK, response.StatusCode);
                 Assert.Equal("Marcos&PatronesTeam 1.1", response.Headers.Server.ToString());
             }
-            StopServer();
+            StopServer(servidor);
         }
 
         [Fact]
         public async void Put()
         {
-            StartServer();
+            int puerto = 8050;
+            var servidor = StartServer(puerto);
 
             var client = CreateClient();
-            var request = CreateRequest();
+            var request = CreateRequest(puerto);
 
             var contentJson = "{\"Nombre\": \"Marcos y patrones\",\"Ubicación\": \"Universidad EAFIT\"}";
 
@@ -94,7 +95,7 @@ namespace ServidorHttp.IntegrationTest
                 Assert.Equal(HttpStatusCode.OK, response.StatusCode);
                 Assert.Equal("Marcos&PatronesTeam 1.1", response.Headers.Server.ToString());
             }
-            StopServer();
+            StopServer(servidor);
         }
     }
 }
