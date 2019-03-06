@@ -1,12 +1,31 @@
+# Contenido
+
+- [Servidor HTTP](#serv)
+  * [OSI](#osi)
+  * [HTTP](#http)
+  * [Flujo HTTP](#flujo)
+  * [Mensajes HTTP](#msg)
+  * [Peticiones](#req)
+  * [Respuestas](#res)  
+- [Objetivo](#obj)
+- [Descripción general](#desc)
+- [Arquitectura](#arc)
+- [Herramientas de desarrollo](#tool)
+- [Instrucciones de uso](#use)
+- [Pruebas](#test)
+
+<a name="serv"></a>
 # Servidor HTTP
 
 ## ¿Por dónde empezar?
 
+<a name="osi"></a>
 ### OSI
 
 El modelo de interconexión de sistemas abiertos (Open System Interconnection) es un modelo conceptual que caracteriza y estandariza las funciones de comunicación de un sistema de telecomunicaciones sin tener en cuenta la estructura interna y la tecnologías subyancentes.
 Su objetivo es la interoperabilidad de diversos sistemas de comunicación con protocolos estándar. El modelo divide un sistema de comunicación en capas de abstracción. La versión original del modelo está compuesto por 7 capas.
 
+<a name="http"></a>
 ### HTTP
 
 De **RFC2616**: El protocolo de transferencia de hipertexto (HTTP), es un protocolo genérico, sin estado, que puede usarse para muchas tareas más allá de su uso para el hipertexto, como los servidores de nombres y sistemas de gestión de objetos distribuidos, a través de la extensión de sus métodos de petición, códigos de error y encabezados. Una caracteristica de HTTP es la tipificación y negociación de representación de datos, permitiendo la construcción de sistemas independiente de los datos que se transfieren.
@@ -17,6 +36,7 @@ La primera versión de HTTP (HTTP/0.9) era un protocolo simplete para la transfe
 
 HTTP/1.1 incluye requisitos más estrictos que HTTP/1.0 para asegurar la implementación confiable de sus características.
 
+<a name="flujo"></a>
 ### Flujo HTTP
 
 Cuando el cliente quiere comunicarse con el servidor, tanto si es directamente con él, o a través de un proxy intermedio, realiza los siguientes pasos: 
@@ -51,10 +71,12 @@ Cuando el cliente quiere comunicarse con el servidor, tanto si es directamente c
 <li> Cierre o reuso de la conexión para futuras peticiones </li>
 </ol>
 
+<a name="msg"></a>
 ### Mensajes HTTP
 
 Existen dos tipos de mensajes HTTP: Peticiones y respuestas, cada uno sigue su propio formato 
 
+<a name="req"></a>
 #### Peticiones
 
 <img src="HTTP_Request.png" width="50%">
@@ -69,6 +91,7 @@ Una petición de HTTP, está formado  por los siguientes campos:
 O un cuerpo de mensaje, en algún método, como puede ser POST, en el cual envía la información para el servidor. </li>
 </ul>
 	
+<a name="res"></a>
 ### Respuestas
 
 <img src="HTTP_Response.png" width="50%">
@@ -84,13 +107,16 @@ Las respuestas están formadas por los siguentes campos:
 
 </ul>
 
+<a name="obj"></a>
 ## Objetivo
 * Definición inicial de una arquitectura detallada para la creación de un servidor Http
 * Utilizar y mejorar las habilidades de análisis detallado de arquitectura de software
 
+<a name="desc"></a>
 ## Descripción general
 * Para la creación de un servidor Http se debe iniciar un proceso que reciba peticiones a traves de TCP, estas peticiones llevan un mensaje con un formato especifico que debe ser interpretado de acuerdo a los estandares Http. De acuerdo al contenido del mensaje se deben ejecutar acciones específicas que hacen parte de la definición Http, sin embargo, no todas las acciones estan contempladas dentro del alcance de este proyecto.
 
+<a name="arc"></a>
 ## Arquitectura
 * Basados en la descripción general, se definirá la arquitectura detallada para la solución utilizando los siguientes componentes:
 1. Servicio que reciba mensajes a traves de TCP
@@ -120,20 +146,32 @@ Los componentes se pueden ver [aquí](Componentes.png)
 
 * Las clases y sus funcionalidades se pueden ver en este [diagrama](ClassDiagram.png)
 
+<a name="tool"></a>
 ## Herramientas de desarrollo
 * El lenguaje a utilizar en el proceso de construcción del servidor Http será C#. 
 * La plataforma .Net y en especial el lenguaje de programación C# es bien conocido por dos de los tres miembros del equipo y ellos servirán de soporte para mejorar el proceso de aprendizaje del ultimo integrante. 
 * La herramienta seleccionada permite implementar cada una de las funcionalidades necesarias para la creación del servidor Http
 * Se cuenta con suficiente documentación para crear el servidor Http con tecnología .Net.
 
+<a name="use"></a>
 ## Instrucciones de uso
 * Descargar el proyecto y abrir la solución en Visual Studio 2017.
 * En el archivo Program.cs, se inicia el servidor en el puerto 8010. Puede cambiar esta configuración de ser necesario.
+<img src="Program.cs.png" width="90%">
+
 * Iniciar la ejecución del programa con F5 ó en el menú Debug -> Start.
 * Al iniciar el programa se muestra una ventana de consola donde informa que el servidor ha sido iniciado, el puerto y la ruta del archivo donde se está registrando el log.
+<img src="Consola.png" width="90%">
+
 * Enviar una petición Http mediante un navegador o una aplicación como Postman a la ruta http://localhost:8010. Recuerde modificar el puerto 8010 en caso de ser necesario
 * Revisar el archivo de Log que se encuentra en la ruta especificada por la ventana de consola.
+<img src="Consola2.png" width="90%">
 
+<a name="test"></a>
 ## Instrucciones para la ejecución de las pruebas
+* En Visual Studio 2017, abrir la ventana "Test Explorer" por el menú Test -> Windows -> Test Explorer
+* Dar clic en la opción "Ejecutar todos"
+* Las pruebas de integración envian diferentes peticiones al Servidor http, el cual responde a todas con un código de estado 200.
+<img src="IntegrationTest.cs.png" width="90%">
 
 
