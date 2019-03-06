@@ -16661,3 +16661,47 @@ Expires: -1
 Date: Tuesday, March 5, 2019
 
 Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET / HTTP/1.1
+Content-Type: application/json
+cache-control: no-cache
+Postman-Token: a50a7bc7-fb90-4f35-88f9-41ee531c6604
+User-Agent: PostmanRuntime/7.4.0
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 70
+Connection: keep-alive
+
+{
+	"Nombre": "Marcos y patrones",
+	"Ubicaci??n": "Universidad EAFIT"
+}
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/ - Tipo Contenido: application/json - Encabezados:
+Content-Type:  application/json
+cache-control:  no-cache
+Postman-Token:  a50a7bc7-fb90-4f35-88f9-41ee531c6604
+User-Agent:  PostmanRuntime/7.4.0
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  70
+Connection:  keep-alive - Contenido:{"Nombre": "Marcos y patrones","Ubicaci??n": "Universidad EAFIT"}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 426
+Expires: -1
+Date: Tuesday, March 5, 2019
+
+Esperando por conexión...

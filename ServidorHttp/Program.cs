@@ -10,11 +10,11 @@ namespace ServidorHttp
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            
+
+            int puerto = 8010;
             Servidor servidor = new Servidor();
-            servidor.Iniciar(8010);
+            servidor.Iniciar(puerto);
 
             Console.ReadKey();
 

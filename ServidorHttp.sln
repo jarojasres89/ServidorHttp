@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorHttp", "ServidorHttp\ServidorHttp.csproj", "{35760A2C-9E55-4482-AE53-2C97AB5466F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorHttp.Test", "ServidorHttp.Test\ServidorHttp.Test.csproj", "{5D4D646D-6EE4-41F7-BE06-ABA7FA56088C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorHttp.IntegrationTest", "ServidorHttp.IntegrationTest\ServidorHttp.IntegrationTest.csproj", "{20F3F724-ADC2-4F96-BD6C-1FE65B982526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{35760A2C-9E55-4482-AE53-2C97AB5466F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35760A2C-9E55-4482-AE53-2C97AB5466F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35760A2C-9E55-4482-AE53-2C97AB5466F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D4D646D-6EE4-41F7-BE06-ABA7FA56088C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D4D646D-6EE4-41F7-BE06-ABA7FA56088C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D4D646D-6EE4-41F7-BE06-ABA7FA56088C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D4D646D-6EE4-41F7-BE06-ABA7FA56088C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F3F724-ADC2-4F96-BD6C-1FE65B982526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F3F724-ADC2-4F96-BD6C-1FE65B982526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F3F724-ADC2-4F96-BD6C-1FE65B982526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F3F724-ADC2-4F96-BD6C-1FE65B982526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
