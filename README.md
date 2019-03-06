@@ -13,6 +13,8 @@
 - [Herramientas de desarrollo](#tool)
 - [Instrucciones de uso](#use)
 - [Pruebas](#test)
+  * [Visual Studio](#vs)
+  * [Postman](#pm)
 
 <a name="serv"></a>
 # Servidor HTTP
@@ -170,6 +172,7 @@ Los componentes se pueden ver [aquí](Componentes.png)
 <a name="test"></a>
 ## Instrucciones para la ejecución de las pruebas de integración
 
+<a name="vs"></a>
 ### Visual Studio
 
 * En Visual Studio 2017, abrir la ventana "Test Explorer" por el menú Test -> Windows -> Test Explorer
@@ -177,7 +180,19 @@ Los componentes se pueden ver [aquí](Componentes.png)
 * Las pruebas de integración envian diferentes peticiones al Servidor http, el cual responde a todas con un código de estado 200.
 <img src="IntegrationTest.cs.png" width="50%">
 
+<a name="pm"></a>
 ### Postman
 
+* Después de [ejecutar el servidor](#use), en la herramienta Postman, se da clic en el botón importar
+<img src="importPM.png" width="50%">
 
+* Se carga el archivo de "Test HttpServer.postman_collection.json" que se encuentra en la carpeta test.
+<img src="archivoTestPM.png" width="50%">
 
+* La colección aparece al lado derecho y se llama "Test HttpServer", se da clic en el botón "play" y después en el botón "Run" para abrir la ventana de ejecución.
+
+<img src="ejecutarPruebasPM.png" width="50%">
+
+* Se ingresa el número de ejecuciones que se desea y clic en el bóton Run Test HttpServer
+
+<img src="ejecucionPruebasPM.png" width="50%">
