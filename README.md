@@ -168,7 +168,7 @@ Los componentes se pueden ver [aquí](Componentes.png)
 <img src="Consola2.png" width="50%">
 
 <a name="test"></a>
-## Instrucciones para la ejecución de las pruebas
+## Instrucciones para la ejecución de las pruebas de integración
 * En Visual Studio 2017, abrir la ventana "Test Explorer" por el menú Test -> Windows -> Test Explorer
 * Dar clic en la opción "Ejecutar todos"
 * Las pruebas de integración envian diferentes peticiones al Servidor http, el cual responde a todas con un código de estado 200.
