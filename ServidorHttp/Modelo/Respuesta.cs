@@ -21,5 +21,6 @@ namespace ServidorHttp.Modelo
         public Encabezado[] Encabezados { get; }
         public string VersionServidor { get; }
         public string NombreServidor { get; }
+
     }
 }

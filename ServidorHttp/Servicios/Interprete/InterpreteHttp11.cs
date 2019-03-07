@@ -22,17 +22,21 @@ namespace ServidorHttp.Servicios.Interprete
             var lineasPeticion = textoPeticion.Split(new[] { '\r'}).Select( x=> x.Replace("\n", "")).ToArray();            
             var primeraLinea = lineasPeticion[0].Split(new[] { ' ' });
             VerbosHttp verboHttp;
-            Enum.TryParse(primeraLinea[0], out verboHttp);
 
-            var encabezado = lineasPeticion.Skip(1).TakeWhile(r => r != "").Select(x => new Encabezado(x.Split(':').First(), string.Join(":", x.Split(new[] { ':' }).Skip(1)))).ToArray();
+            if (Enum.TryParse(primeraLinea[0], out verboHttp))
+            {
+                var encabezado = lineasPeticion.Skip(1).TakeWhile(r => r != "").Select(x => new Encabezado(x.Split(':').First(), string.Join(":", x.Split(new[] { ':' }).Skip(1)))).ToArray();
 
-            var host = new Uri(@"http://" + encabezado.First(x => x.Nombre == "Host").Valor.Trim());
-            var url = new Uri(host, primeraLinea[1]);
-            var tipoContenido = encabezado.FirstOrDefault(x => x.Nombre == "Content-Type")?.Valor;
-            var indiceInicioCuerpo = Array.IndexOf(lineasPeticion, string.Empty) + 1;
-            var cuerpo = string.Join("", lineasPeticion.Skip(indiceInicioCuerpo).Select(x => x.Replace("\t", string.Empty)));
+                var host = new Uri(@"http://" + encabezado.First(x => x.Nombre == "Host").Valor.Trim());
+                var url = new Uri(host, primeraLinea[1]);
+                var tipoContenido = encabezado.FirstOrDefault(x => x.Nombre == "Content-Type")?.Valor;
+                var indiceInicioCuerpo = Array.IndexOf(lineasPeticion, string.Empty) + 1;
+                var cuerpo = string.Join("", lineasPeticion.Skip(indiceInicioCuerpo).Select(x => x.Replace("\t", string.Empty)));
 
-            return new Solicitud(textoPeticion, verboHttp, url.ToString(), cuerpo, tipoContenido, encabezado);
+                return new Solicitud(textoPeticion, verboHttp, url.ToString(), cuerpo, tipoContenido, encabezado);
+            }
+
+            return new Solicitud(true);
         }
 
         private string ObtenerMensajeSolicitud(TcpClient cliente)

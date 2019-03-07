@@ -19,7 +19,7 @@ namespace ServidorHttp
         public Servidor()
         {
             Interprete = new InterpreteHttp11();
-            CreadorRespuesta = new CreadorRespuesta200();
+            CreadorRespuesta = new CreadorRespuesta();
             EscritorLog = new EscritorLogFile();
             ListaAcciones = new ListaAcciones();
         }
@@ -32,6 +32,7 @@ namespace ServidorHttp
         public ListaAcciones ListaAcciones { get; set; }
         public IInterpreteHttp Interprete { get; set; }
         public ICreadorRespuesta CreadorRespuesta { get; set; }
+
 
         public void Iniciar(int puerto = 80)
         {
@@ -79,9 +80,17 @@ namespace ServidorHttp
 
             Log("\r\nRequest: " + Solicitud.Semilla);
 
-            Log($"\r\nSolicitud tipada: Verbo:{Solicitud.Verbo} - Url:{Solicitud.URL} - Tipo Contenido:{Solicitud.TipoContenido} - Encabezados:{Interprete.ObtenerEncabezados(Solicitud.Encabezados)} - Contenido:{Solicitud.Contenido}");
+            if (Solicitud.EsInvalida)
+            {
+                Log("\r\n La solicitud es incorrecta");
+            }
+            else
+            {
+                Log($"\r\nSolicitud tipada: Verbo:{Solicitud.Verbo} - Url:{Solicitud.URL} - Tipo Contenido:{Solicitud.TipoContenido} - Encabezados:{Interprete.ObtenerEncabezados(Solicitud.Encabezados)} - Contenido:{Solicitud.Contenido}");
+            }
 
             Respuesta = ListaAcciones.EjecutarAcciones(Solicitud) ?? CreadorRespuesta.CrearRespuesta(Solicitud);
+
 
             Log("\r\nRespuesta: " + Interprete.MensajeRespuesta(Respuesta));
 

@@ -16705,3 +16705,2172 @@ Expires: -1
 Date: Tuesday, March 5, 2019
 
 Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: OPTIONS / HTTP/1.1
+cache-control: no-cache
+Postman-Token: 5056ab0a-24d9-43f0-a71d-0ddea7e4f05e
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:OPTIONS - Url:http://localhost:8010/ - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  5056ab0a-24d9-43f0-a71d-0ddea7e4f05e
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 327
+Expires: -1
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 5a6ab830-ad6d-4fed-9df8-9269be6ed802
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  5a6ab830-ad6d-4fed-9df8-9269be6ed802
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 310
+Expires: -1
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: 
+
+El request es inválido
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: OPTIONS /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 6f28a022-5679-4f46-9fb7-b1acff722551
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:OPTIONS - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  6f28a022-5679-4f46-9fb7-b1acff722551
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: OPTIONS /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 1da72c4e-3156-4657-bf0f-9a09b39b4a01
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:OPTIONS - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  1da72c4e-3156-4657-bf0f-9a09b39b4a01
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: OPTIONS /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: cdc70b09-002a-404b-b6ca-3e82c73e5492
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:OPTIONS - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  cdc70b09-002a-404b-b6ca-3e82c73e5492
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+Allow: GET,POST,PUT,DELETE,OPTIONS,HEAD,TRACE
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 79e85138-b5aa-4ce6-a549-fa4a55c9e05a
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  79e85138-b5aa-4ce6-a549-fa4a55c9e05a
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 9439bfa0-a824-4c3c-967a-dcb11a499836
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  9439bfa0-a824-4c3c-967a-dcb11a499836
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 634dacea-d5a5-40c4-b3cf-ae3f33516e88
+Content-Type: text/plain
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 11
+Connection: keep-alive
+
+alguna cosa
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: text/plain - Encabezados:
+cache-control:  no-cache
+Postman-Token:  634dacea-d5a5-40c4-b3cf-ae3f33516e88
+Content-Type:  text/plain
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  11
+Connection:  keep-alive - Contenido:alguna cosa
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 3d0aaa6a-84c3-41d8-9eba-cb82bda17687
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 6
+Connection: keep-alive
+
+test=1
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  3d0aaa6a-84c3-41d8-9eba-cb82bda17687
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  6
+Connection:  keep-alive - Contenido:test=1
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: b449e07d-7e74-4218-ad66-14d390b489a6
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 8
+Connection: keep-alive
+
+prueba=2
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  b449e07d-7e74-4218-ad66-14d390b489a6
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  8
+Connection:  keep-alive - Contenido:prueba=2
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba?test=1&test2=3 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 2e464357-aa5f-4fa2-8134-11b4cd7641c5
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba?test=1&test2=3 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  2e464357-aa5f-4fa2-8134-11b4cd7641c5
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 325
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: POST /post HTTP/1.1
+cache-control: no-cache
+Postman-Token: ea1b4486-4d40-4cf9-9d4e-942adf49a275
+Content-Type: text/plain
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	"param2": 1,
+	"param3": 5
+}
+
+Solicitud tipada: Verbo:POST - Url:http://localhost:8010/post - Tipo Contenido: text/plain - Encabezados:
+cache-control:  no-cache
+Postman-Token:  ea1b4486-4d40-4cf9-9d4e-942adf49a275
+Content-Type:  text/plain
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"param2": 1,"param3": 5}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 385
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: PUT /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 0bd70971-e25a-4bc9-a72a-7fbd690f5ee4
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Solicitud tipada: Verbo:PUT - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  0bd70971-e25a-4bc9-a72a-7fbd690f5ee4
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"prueba": 1,"Test": 2}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 409
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: DELETE /contract/2 HTTP/1.1
+cache-control: no-cache
+Postman-Token: bc54c71d-26af-40d8-939f-7a3c12428c65
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:DELETE - Url:http://localhost:8010/contract/2 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  bc54c71d-26af-40d8-939f-7a3c12428c65
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: dd45430e-da50-4a72-bca6-5ce150733e0f
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  dd45430e-da50-4a72-bca6-5ce150733e0f
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 34fd8f8b-3fe5-4485-8456-742221d1c06c
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  34fd8f8b-3fe5-4485-8456-742221d1c06c
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: d4f9c9b1-cd2f-4402-b547-2bf313dbe6ab
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 8
+Connection: keep-alive
+
+prueba=2
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  d4f9c9b1-cd2f-4402-b547-2bf313dbe6ab
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  8
+Connection:  keep-alive - Contenido:prueba=2
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 0f0e0e66-1482-4f3b-b90d-ae55b462bb11
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 6
+Connection: keep-alive
+
+test=1
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  0f0e0e66-1482-4f3b-b90d-ae55b462bb11
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  6
+Connection:  keep-alive - Contenido:test=1
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba?test=1&test2=3 HTTP/1.1
+cache-control: no-cache
+Postman-Token: d9d3b4f8-0ecd-42a5-a53d-c81c3d81a0ee
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba?test=1&test2=3 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  d9d3b4f8-0ecd-42a5-a53d-c81c3d81a0ee
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 325
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: POST /post HTTP/1.1
+cache-control: no-cache
+Postman-Token: f7a8abc0-c1ea-4d20-8e2f-e1ce2dc691de
+Content-Type: text/plain
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	"param2": 1,
+	"param3": 5
+}
+
+Solicitud tipada: Verbo:POST - Url:http://localhost:8010/post - Tipo Contenido: text/plain - Encabezados:
+cache-control:  no-cache
+Postman-Token:  f7a8abc0-c1ea-4d20-8e2f-e1ce2dc691de
+Content-Type:  text/plain
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"param2": 1,"param3": 5}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 385
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: PUT /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 490ec6a7-3e16-43da-8385-9b42e3131ec9
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Solicitud tipada: Verbo:PUT - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  490ec6a7-3e16-43da-8385-9b42e3131ec9
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"prueba": 1,"Test": 2}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 409
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: DELETE /contract/2 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 05377a00-4b37-4c71-9361-b6ab037e44c0
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:DELETE - Url:http://localhost:8010/contract/2 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  05377a00-4b37-4c71-9361-b6ab037e44c0
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 1dda712d-ad16-472b-93ed-34970dd8a097
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  1dda712d-ad16-472b-93ed-34970dd8a097
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 2bafaf90-1175-4b34-8b36-4e0d8ae65d52
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  2bafaf90-1175-4b34-8b36-4e0d8ae65d52
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: b6f64b38-b363-4abf-b1b9-32d659e72618
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 8
+Connection: keep-alive
+
+prueba=2
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  b6f64b38-b363-4abf-b1b9-32d659e72618
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  8
+Connection:  keep-alive - Contenido:prueba=2
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 5601b818-4856-4f77-be80-6acb36da258a
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 6
+Connection: keep-alive
+
+test=1
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  5601b818-4856-4f77-be80-6acb36da258a
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  6
+Connection:  keep-alive - Contenido:test=1
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /test HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/test - Tipo Contenido: - Encabezados:
+Host:  localhost:8010
+Connection:  keep-alive
+Upgrade-Insecure-Requests:  1
+User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept:  text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  en-US,en;q=0.9,es;q=0.8
+Cookie:  ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02= - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 574
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /favicon.ico HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8010/test
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/favicon.ico - Tipo Contenido: - Encabezados:
+Host:  localhost:8010
+Connection:  keep-alive
+User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept:  image/webp,image/apng,image/*,*/*;q=0.8
+Referer:  http://localhost:8010/test
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  en-US,en;q=0.9,es;q=0.8
+Cookie:  ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02= - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 542
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /test HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/test - Tipo Contenido: - Encabezados:
+Host:  localhost:8010
+Connection:  keep-alive
+Cache-Control:  max-age=0
+Upgrade-Insecure-Requests:  1
+User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept:  text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  en-US,en;q=0.9,es;q=0.8
+Cookie:  ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02= - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 600
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /test HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/test - Tipo Contenido: - Encabezados:
+Host:  localhost:8010
+Connection:  keep-alive
+Cache-Control:  max-age=0
+Upgrade-Insecure-Requests:  1
+User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept:  text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  en-US,en;q=0.9,es;q=0.8
+Cookie:  ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02= - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 600
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /favicon.ico HTTP/1.1
+Host: localhost:8010
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8010/test
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,es;q=0.8
+Cookie: ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02=
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/favicon.ico - Tipo Contenido: - Encabezados:
+Host:  localhost:8010
+Connection:  keep-alive
+Pragma:  no-cache
+Cache-Control:  no-cache
+User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+Accept:  image/webp,image/apng,image/*,*/*;q=0.8
+Referer:  http://localhost:8010/test
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  en-US,en;q=0.9,es;q=0.8
+Cookie:  ASP.NET_SessionId=zh24tlpnquyndqxkfqmyyhqi; 162E0579-90A9-4457-8AD5-2F1B9469EB02= - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 585
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba?test=1&test2=3 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 69747636-03f4-4c05-a114-cbabf1644f10
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba?test=1&test2=3 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  69747636-03f4-4c05-a114-cbabf1644f10
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 325
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: POST /post HTTP/1.1
+cache-control: no-cache
+Postman-Token: 8b6c95be-269e-4852-8b7c-26bdcc31e9b8
+Content-Type: text/plain
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	"param2": 1,
+	"param3": 5
+}
+
+Solicitud tipada: Verbo:POST - Url:http://localhost:8010/post - Tipo Contenido: text/plain - Encabezados:
+cache-control:  no-cache
+Postman-Token:  8b6c95be-269e-4852-8b7c-26bdcc31e9b8
+Content-Type:  text/plain
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"param2": 1,"param3": 5}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 385
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: PUT /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 94979fc8-97e7-4fb0-b4c2-53dad0b7dae4
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Solicitud tipada: Verbo:PUT - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  94979fc8-97e7-4fb0-b4c2-53dad0b7dae4
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"prueba": 1,"Test": 2}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 409
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: DELETE /contract/2 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 6bf91ca3-b236-4914-9f75-9e0fc956a753
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:DELETE - Url:http://localhost:8010/contract/2 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  6bf91ca3-b236-4914-9f75-9e0fc956a753
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 0a7f559a-e0a4-4df7-a90f-8a9a5e90b960
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  0a7f559a-e0a4-4df7-a90f-8a9a5e90b960
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 00476493-d7ee-42c8-a05b-1632d548ebad
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  00476493-d7ee-42c8-a05b-1632d548ebad
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 5002d92f-83fb-4492-8124-7cd24c6d7daf
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 8
+Connection: keep-alive
+
+prueba=2
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  5002d92f-83fb-4492-8124-7cd24c6d7daf
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  8
+Connection:  keep-alive - Contenido:prueba=2
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 6f285f75-4662-41c1-a3cf-81fcc1fad5cf
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 6
+Connection: keep-alive
+
+test=1
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  6f285f75-4662-41c1-a3cf-81fcc1fad5cf
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  6
+Connection:  keep-alive - Contenido:test=1
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba?test=1&test2=3 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 46048a25-e24d-49c7-a788-dbb13d4d4fb2
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba?test=1&test2=3 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  46048a25-e24d-49c7-a788-dbb13d4d4fb2
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 325
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: POST /post HTTP/1.1
+cache-control: no-cache
+Postman-Token: 611c2321-8bd1-4b70-91cd-c059deb12131
+Content-Type: text/plain
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	"param2": 1,
+	"param3": 5
+}
+
+Solicitud tipada: Verbo:POST - Url:http://localhost:8010/post - Tipo Contenido: text/plain - Encabezados:
+cache-control:  no-cache
+Postman-Token:  611c2321-8bd1-4b70-91cd-c059deb12131
+Content-Type:  text/plain
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"param2": 1,"param3": 5}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 385
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: PUT /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: f4474b4d-957e-4924-936e-3a1786904c52
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Solicitud tipada: Verbo:PUT - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  f4474b4d-957e-4924-936e-3a1786904c52
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"prueba": 1,"Test": 2}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 409
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: DELETE /contract/2 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 432c5953-8dd9-4f83-9f67-bdb4d7005edd
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:DELETE - Url:http://localhost:8010/contract/2 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  432c5953-8dd9-4f83-9f67-bdb4d7005edd
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 38a8c1dc-2fc0-4bc6-b2d3-b8fbe6b43bb0
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  38a8c1dc-2fc0-4bc6-b2d3-b8fbe6b43bb0
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 31f8ec0c-15ae-4ea0-8b18-23311cf2dff6
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  31f8ec0c-15ae-4ea0-8b18-23311cf2dff6
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: e605ff05-18be-4121-b984-2aba7911db2c
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 8
+Connection: keep-alive
+
+prueba=2
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  e605ff05-18be-4121-b984-2aba7911db2c
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  8
+Connection:  keep-alive - Contenido:prueba=2
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 9bcbed20-5a50-49ed-964a-2fa853e7c1b9
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 6
+Connection: keep-alive
+
+test=1
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  9bcbed20-5a50-49ed-964a-2fa853e7c1b9
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  6
+Connection:  keep-alive - Contenido:test=1
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Iniciar servidor con IP: 0.0.0.0 Puerto: 8010
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba?test=1&test2=3 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 01de38e8-e662-4ede-b58c-a21423c02773
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba?test=1&test2=3 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  01de38e8-e662-4ede-b58c-a21423c02773
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 325
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: POST /post HTTP/1.1
+cache-control: no-cache
+Postman-Token: a5b163cb-20c0-4454-a95b-b6a09b36d2fe
+Content-Type: text/plain
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	"param2": 1,
+	"param3": 5
+}
+
+Solicitud tipada: Verbo:POST - Url:http://localhost:8010/post - Tipo Contenido: text/plain - Encabezados:
+cache-control:  no-cache
+Postman-Token:  a5b163cb-20c0-4454-a95b-b6a09b36d2fe
+Content-Type:  text/plain
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"param2": 1,"param3": 5}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 385
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: PUT /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: e05f559a-a416-4a36-abf9-f83063d4fb2c
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Solicitud tipada: Verbo:PUT - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  e05f559a-a416-4a36-abf9-f83063d4fb2c
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"prueba": 1,"Test": 2}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 409
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: DELETE /contract/2 HTTP/1.1
+cache-control: no-cache
+Postman-Token: 666d3560-57a8-4380-b139-cbd4a3708da5
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:DELETE - Url:http://localhost:8010/contract/2 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  666d3560-57a8-4380-b139-cbd4a3708da5
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 1c685db2-3445-414b-b2c4-7e100f78dad6
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  1c685db2-3445-414b-b2c4-7e100f78dad6
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 8e97f78e-9df5-4c1b-bc78-73124be53374
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  8e97f78e-9df5-4c1b-bc78-73124be53374
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: f8e417d7-27fd-4ab6-b9e8-a90de7f45e1c
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 8
+Connection: keep-alive
+
+prueba=2
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  f8e417d7-27fd-4ab6-b9e8-a90de7f45e1c
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  8
+Connection:  keep-alive - Contenido:prueba=2
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 73221556-c47e-43aa-8655-4837389d1b5f
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 6
+Connection: keep-alive
+
+test=1
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  73221556-c47e-43aa-8655-4837389d1b5f
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  6
+Connection:  keep-alive - Contenido:test=1
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba?test=1&test2=3 HTTP/1.1
+cache-control: no-cache
+Postman-Token: b135e956-1624-4f6e-9bc4-93adb7bdd5c1
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba?test=1&test2=3 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  b135e956-1624-4f6e-9bc4-93adb7bdd5c1
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 325
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: POST /post HTTP/1.1
+cache-control: no-cache
+Postman-Token: 26312d2f-d6d3-47e3-8140-625301f6a4dc
+Content-Type: text/plain
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	"param2": 1,
+	"param3": 5
+}
+
+Solicitud tipada: Verbo:POST - Url:http://localhost:8010/post - Tipo Contenido: text/plain - Encabezados:
+cache-control:  no-cache
+Postman-Token:  26312d2f-d6d3-47e3-8140-625301f6a4dc
+Content-Type:  text/plain
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"param2": 1,"param3": 5}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 385
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: PUT /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 1f7f0bdc-4fd3-4720-b79e-792482ae62be
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 30
+Connection: keep-alive
+
+{
+	
+	"prueba": 1,
+	"Test": 2
+}
+
+Solicitud tipada: Verbo:PUT - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  1f7f0bdc-4fd3-4720-b79e-792482ae62be
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  30
+Connection:  keep-alive - Contenido:{"prueba": 1,"Test": 2}
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 409
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: DELETE /contract/2 HTTP/1.1
+cache-control: no-cache
+Postman-Token: ff4ce435-c0a9-40f9-8f14-d1d59dd11e83
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:DELETE - Url:http://localhost:8010/contract/2 - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  ff4ce435-c0a9-40f9-8f14-d1d59dd11e83
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: 2cd9265e-a8f2-41e4-a11b-fdd726bfb0fc
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  2cd9265e-a8f2-41e4-a11b-fdd726bfb0fc
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+cache-control: no-cache
+Postman-Token: dd3fe8d3-b6f4-4d7c-a73d-74a264ba6f2d
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+
+
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: - Encabezados:
+cache-control:  no-cache
+Postman-Token:  dd3fe8d3-b6f4-4d7c-a73d-74a264ba6f2d
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  0
+Connection:  keep-alive - Contenido:
+
+Respuesta: HTTP/1.1 200 OK
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+Expires: jueves, 14 de marzo de 2019
+Date: jueves, 7 de marzo de 2019
+
+Esperando por conexión...
+Cliente conectado
+
+Request: HEAD /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 06916b3f-e33c-416c-bd05-62d6ca64f26a
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 8
+Connection: keep-alive
+
+prueba=2
+
+Solicitud tipada: Verbo:HEAD - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  06916b3f-e33c-416c-bd05-62d6ca64f26a
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  8
+Connection:  keep-alive - Contenido:prueba=2
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...
+Cliente conectado
+
+Request: GET /prueba HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: e6d75d88-d470-454a-ab64-e3523d27903d
+User-Agent: PostmanRuntime/7.6.1
+Accept: */*
+Host: localhost:8010
+accept-encoding: gzip, deflate
+content-length: 6
+Connection: keep-alive
+
+test=1
+
+Solicitud tipada: Verbo:GET - Url:http://localhost:8010/prueba - Tipo Contenido: application/x-www-form-urlencoded - Encabezados:
+Content-Type:  application/x-www-form-urlencoded
+cache-control:  no-cache
+Postman-Token:  e6d75d88-d470-454a-ab64-e3523d27903d
+User-Agent:  PostmanRuntime/7.6.1
+Accept:  */*
+Host:  localhost:8010
+accept-encoding:  gzip, deflate
+content-length:  6
+Connection:  keep-alive - Contenido:test=1
+
+Respuesta: HTTP/1.1 400 Bad Request
+Server: Marcos&PatronesTeam 1.1
+Content-Type: text/plain
+Accept-Ranges: bytes
+Content-Length: 0
+
+Esperando por conexión...

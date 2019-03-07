@@ -51,7 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\Acciones\IAccion.cs" />
     <Compile Include="Servicios\Acciones\ListaAcciones.cs" />
-    <Compile Include="Servicios\CreadorRespuesta\CreadorRespuesta200.cs" />
+    <Compile Include="Servicios\CreadorRespuesta\CreadorRespuesta.cs" />
     <Compile Include="Servicios\CreadorRespuesta\ICreadorRespuesta.cs" />
     <Compile Include="Servicios\EscritorLog\EscritorLogFile.cs" />
     <Compile Include="Servicios\EscritorLog\IEscritorLog.cs" />

@@ -16,3 +16,21 @@ C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp.IntegrationTest\obj
 C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.csproj.CopyComplete
 C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.dll
 C:\Users\Computer GAP\source\repos\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.pdb
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.deps.json
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.runtimeconfig.json
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.runtimeconfig.dev.json
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.pdb
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.exe
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.pdb
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\bin\Debug\netcoreapp2.1\ServidorHttp.exe.config
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.csprojAssemblyReference.cache
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.csproj.CoreCompileInputs.cache
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.AssemblyInfoInputs.cache
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.AssemblyInfo.cs
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.csproj.CopyComplete
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.dll
+D:\dirtrab\Personal\Universidad\ServidorHttp\ServidorHttp\ServidorHttp.IntegrationTest\obj\Debug\netcoreapp2.1\ServidorHttp.IntegrationTest.pdb

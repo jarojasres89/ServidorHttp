@@ -12,6 +12,8 @@ namespace ServidorHttp.Enums
         POST,
         PUT,
         DELETE,
-        OPTIONS
+        OPTIONS,
+        HEAD
+              
     }
 }
