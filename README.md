@@ -15,6 +15,7 @@
 - [Pruebas](#test)
   * [Visual Studio](#vs)
   * [Postman](#pm)
+- [Screencast](#screen)
 
 <a name="serv"></a>
 # Servidor HTTP
@@ -196,3 +197,8 @@ Los componentes se pueden ver [aquí](Componentes.png)
 * Se ingresa el número de ejecuciones que se desea y clic en el bóton Run Test HttpServer
 
 <img src="ejecucionPruebasPM.png" width="50%">
+
+### Screencast
+<a name="screen"></a>
+La ruta para el screencast https://www.useloom.com/share/966626f6de1a4942a9ff2099563df369
+
